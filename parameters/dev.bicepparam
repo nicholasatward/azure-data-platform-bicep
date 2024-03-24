@@ -1,0 +1,8 @@
+using '../dev.main.bicep'
+param p_subscriptionPrefix = 'nw'
+param p_environment = 'dev'
+param p_applicationName = 'edp'
+param p_resourceGroup = 'rg-${p_subscriptionPrefix}-${p_environment}-${p_applicationName}'
+param p_costCentre = '0000'
+param p_location = 'australiaeast'
+param p_locationShort = 'ae'
