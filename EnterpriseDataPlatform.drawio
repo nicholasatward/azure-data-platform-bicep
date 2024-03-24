@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T02:47:23.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ccqe_9Hw7t6Ub8WLAiSh" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-24T02:51:46.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="zT6P-JmNwA6p3l9jr7Fc" version="24.1.0" type="github">
   <diagram name="Main" id="jrsYXLbPBY0B7HWtTwxl">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="JT6zEs1MwmiMcGA5Ooht-3" value="rg-nw-&amp;lt;env&amp;gt;-edp" style="image;sketch=0;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="50" y="210" width="25" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JT6zEs1MwmiMcGA5Ooht-5" value="NW-TEST" style="verticalLabelPosition=middle;html=1;verticalAlign=middle;align=left;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_subscription;labelPosition=right;" vertex="1" parent="1">
+        <mxCell id="JT6zEs1MwmiMcGA5Ooht-5" value="NW-&amp;lt;SUBSCRIPTION&amp;gt;" style="verticalLabelPosition=middle;html=1;verticalAlign=middle;align=left;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_subscription;labelPosition=right;" vertex="1" parent="1">
           <mxGeometry x="29" y="160" width="35" height="25" as="geometry" />
         </mxCell>
         <mxCell id="JT6zEs1MwmiMcGA5Ooht-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;dashed=1;strokeWidth=2;" vertex="1" parent="1">
@@ -68,7 +68,13 @@
           <mxGeometry x="582" y="430" width="39" height="36.17" as="geometry" />
         </mxCell>
         <mxCell id="JT6zEs1MwmiMcGA5Ooht-37" value="adf-nw-&amp;lt;dev&amp;gt;-edp-core" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="840" y="659" width="50" height="50" as="geometry" />
+          <mxGeometry x="680" y="645" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT6zEs1MwmiMcGA5Ooht-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Enterprise Data Platform&lt;/h1&gt;&lt;div&gt;Resource group based environments in a subscription deployment.&lt;/div&gt;&lt;div&gt;Single virtual network with subnets for storage and ingestion. Databricks workspace on a separate virtual network peered into the core.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="540" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JT6zEs1MwmiMcGA5Ooht-39" value="kv-nw-&amp;lt;env&amp;gt;-edp-core" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="641" width="68" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
